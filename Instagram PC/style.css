@@ -1,0 +1,468 @@
+/* ============================================================Home============================================================ */
+
+#Home {
+        display: flex;
+        flex-direction: row;
+        margin-top: -8px;
+        border: 1px solid gray;
+        width: 1500px;
+        height: 740px;
+}
+
+#leftSide {
+        background-color: white;
+        width: 220px;
+        height: 740px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 19px;
+        border-right: 1px solid #DBDBDB;
+}
+
+#leftSideIcon {
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        margin-top: 70px;
+        margin-left: -127px;
+}
+
+#leftSideLabel {
+        margin-top: 118px;
+        margin-left: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 150px;
+        height: 396px;
+        font-size: 20px;
+}
+
+#center {
+        background-color: #F8F8F8;
+        width: 776px;
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+#centerHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+        margin-left: 40px;
+        border: 1px solid #D6D6D6;
+        border-radius: 6px;
+        height: 120px;
+        background-color: white;
+
+}
+
+#listStory {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 580px;
+}
+
+#story {
+        display: flex;
+        flex-direction: row;
+}
+
+#centerBottom {
+        margin-top: 13px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        height: 500px;
+        border: 1px solid #D6D6D6;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom: none;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        height: 820px;
+}
+
+.spaceOnTop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.circleAvatar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 97px;
+        justify-content: space-between;
+}
+
+.spaceOnBottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.spaceOfIconBottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 120px;
+}
+
+#rightSide {
+        background-color: #F8F8F8;
+        width: 408px;
+        height: 680px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+}
+
+.rightSideLabelContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+}
+
+.rightSideNameAvatar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.avatarSize {
+        width: 40px;
+        height: 40px;
+}
+
+.status {
+        font-size: 15px;
+        color: #838383;
+        margin-top: 5px
+}
+
+/* ============================================================Explore============================================================ */
+#Explore {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        border: 1px solid gray;
+        width: 1500px;
+        height: 740px;
+        padding-right: -10px;
+}
+
+#contentEx {
+        display: flex;
+        flex-direction: column;
+        width: 1260px;
+}
+
+#contentImage {
+        width: 213px;
+        height: 275px;
+}
+
+#iconWatch {
+        position: absolute;
+        margin-left: 170px;
+        margin-top: 5px;
+}
+
+#iconCopy {
+        position: absolute;
+        margin-left: 155px;
+        margin-top: -5px;
+        width: 70px;
+        height: 60px;
+}
+
+#overallContent {
+        /*Gom nội dung thành 1 cột*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 570px;
+        margin-top: 50px;
+        margin-left: 190px;
+}
+
+#secondRow {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 190px;
+        width: 870px;
+        height: 138px;
+        justify-content: space-between;
+        overflow: hidden;
+}
+
+
+#infomationPic {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        width: 213px;
+        height: 275px;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+/* ============================================================Reels============================================================ */
+#Reels {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+        width: 1500px;
+        margin-top: 10px;
+        height: 740px;
+}
+
+#reelsContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+#columnContent {
+        /*Phần này sẽ chuyển nội dung của các reel thành từng cột*/
+        display: flex;
+        flex-direction: row;
+        width: 1150px;
+        justify-content: center;
+        margin-left: 90px;
+}
+
+#spaceOfComponent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+/* ============================================================Messenger============================================================ */
+#Messenger {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+        width: 1500px;
+        margin-top: 10px;
+}
+
+#messengerContent {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 163px;
+        width: 870px;
+        height: 655px;
+        border: 2px solid #DBDBDB;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+}
+
+#messengerContentLeftSideUp {
+        width: 314px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #DBDBDB;
+        border-right: 1px solid #DBDBDB;
+}
+
+#messengerContentLeftSideBottom {
+        display: flex;
+        flex-direction: column;
+        padding-left: 22px;
+        padding-top: 15px;
+        width: 292px;
+        height: 600px;
+        border-right: 1px solid #DBDBDB;
+}
+
+#contactPerson {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 120px;
+        padding-top: 15px;
+}
+
+#messengerRightSide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+}
+
+#sendButton {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #0195F7;
+        width: 140px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+}
+
+/* ============================================================Profile============================================================ */
+#Profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+        margin-top: 10px;
+        width: 1500px;
+}
+
+#borderProfileIcon {
+        margin-top: 21px;
+        margin-left: 2px;
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 27px;
+        height: 28px;
+}
+
+#profileContent {
+        display: flex;
+        flex-direction: column;
+        /*Chia từng phần ra thành từng cột*/
+        width: 1250px;
+}
+
+#profileInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1350px;
+        align-items: center;
+}
+
+#lineUnderProfileInformation {
+        border-bottom: 1px solid #CECECE;
+        width: 900px;
+        margin-top: 50px;
+}
+
+#profileLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -4px;
+}
+
+#newsLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 105px;
+        border-top: 2px solid black;
+        padding-top: 14px;
+}
+
+#saveLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+        padding-top: 18px;
+        color: #737373;
+}
+
+#tagLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 175px;
+        padding-top: 18px;
+        color: #737373;
+}
+
+#spaceBetweenLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 550px;
+        font-size: 18px;
+        margin-left: 90px;
+}
+
+#profileInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1250px;
+        margin-top: 20px;
+}
+
+#spaceBetweenImagerInProfile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+}
+
+#contact {
+        display: flex;
+        flex-direction: column;
+}
+
+#moreOption {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+        color: #737373;
+        margin-top: 80px;
+        width: 1250px;
+}
+
+#spaceBetweenContact {
+        width: 1100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#languageAndCopyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+        color: #737373;
+        margin-top: 15px;
+}
+
+#spaceBetweenLanguageAndCopyright {
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        align-items: center;
+        justify-content: space-between;
+}
