@@ -22,6 +22,6 @@ html{
     justify-self: center;
 }
 .header_right{
-
+    justify-content: space-around  ;
 }
 /*test smooth type
