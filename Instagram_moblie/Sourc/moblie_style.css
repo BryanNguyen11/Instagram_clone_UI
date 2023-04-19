@@ -21,13 +21,14 @@ img{
     margin: 0 auto;
     padding: 0 10px;
 }
-
+/* header */
 .header{
     margin-top: 10px;
     margin-right: 10px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
 }
 .header_left{
     justify-self: center;
@@ -37,7 +38,9 @@ img{
     justify-content: space-around  ;
     width: fit-content;
 }
- .header_right_item{
-    margin-left: 8px;
+ .header_right_item {
+    display: flex;
+    object-fit: cover;
+    margin-right: 20px;
  }
 
