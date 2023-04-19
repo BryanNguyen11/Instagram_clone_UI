@@ -23,15 +23,21 @@ img{
 }
 
 .header{
+    margin-top: 10px;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
 }
 .header_left{
     justify-self: center;
 }
 .header_right{
+    display: flex;
     justify-content: space-around  ;
+    width: fit-content;
 }
+ .header_right_item{
+    margin-left: 8px;
+ }
 
