@@ -6,10 +6,20 @@
     box-sizing: border-box;
 }
 body{
-
+    font-family: "Work Sans", sans-serif;
 }
 html{
-        font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header{
@@ -24,4 +34,4 @@ html{
 .header_right{
     justify-content: space-around  ;
 }
-/*test smooth type
+
