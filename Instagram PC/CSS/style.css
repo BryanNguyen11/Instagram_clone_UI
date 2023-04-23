@@ -265,3 +265,74 @@ a {
         flex-direction: column;
         align-items: center;
 }
+
+/* ============================================================Messenger============================================================ */
+#Messenger {
+        margin-top: -8px;
+        display: flex;
+        flex-direction: row;
+        width: 1500px;
+}
+
+#messengerContent {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 163px;
+        width: 870px;
+        height: 655px;
+        border: 2px solid #DBDBDB;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+}
+
+#messengerContentLeftSideUp {
+        width: 314px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #DBDBDB;
+        border-right: 1px solid #DBDBDB;
+}
+
+#messengerContentLeftSideBottom {
+        display: flex;
+        flex-direction: column;
+        padding-left: 22px;
+        padding-top: 15px;
+        width: 292px;
+        height: 600px;
+        border-right: 1px solid #DBDBDB;
+}
+
+#contactPerson {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 120px;
+        padding-top: 15px;
+}
+
+#messengerRightSide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+}
+
+#sendButton {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #0195F7;
+        width: 140px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+}
