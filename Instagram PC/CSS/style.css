@@ -168,3 +168,70 @@ a {
         color: #838383;
         margin-top: 5px
 }
+
+/* ============================================================Explore============================================================ */
+#Explore {
+        display: flex;
+        flex-direction: row;
+        width: 1500px;
+        height: 740px;
+        padding-right: -10px;
+        margin-top: -8px;
+}
+
+#contentEx {
+        display: flex;
+        flex-direction: column;
+        width: 1260px;
+}
+
+#contentImage {
+        width: 213px;
+        height: 275px;
+}
+
+#iconWatch {
+        position: absolute;
+        margin-left: 170px;
+        margin-top: 5px;
+}
+
+#iconCopy {
+        position: absolute;
+        margin-left: 155px;
+        margin-top: -5px;
+        width: 70px;
+        height: 60px;
+}
+
+#overallContent {
+        /*Gom nội dung thành 1 cột*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 570px;
+        margin-top: 50px;
+        margin-left: 190px;
+}
+
+#secondRow {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 190px;
+        width: 870px;
+        height: 138px;
+        justify-content: space-between;
+        overflow: hidden;
+}
+
+
+#infomationPic {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        width: 213px;
+        height: 275px;
+        justify-content: space-evenly;
+        align-items: center;
+}
