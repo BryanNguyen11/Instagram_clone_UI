@@ -336,3 +336,143 @@ a {
         border: none;
         border-radius: 10px;
 }
+
+/* ============================================================Profile============================================================ */
+#Profile {
+        margin-top: -8px;
+        display: flex;
+        flex-direction: row;
+        width: 1500px;
+}
+
+#borderProfileIcon {
+        margin-top: 21px;
+        margin-left: 2px;
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 27px;
+        height: 28px;
+}
+
+#profileContent {
+        display: flex;
+        flex-direction: column;
+        /*Chia từng phần ra thành từng cột*/
+        width: 1250px;
+}
+
+#profileInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1350px;
+        align-items: center;
+}
+
+#lineUnderProfileInformation {
+        border-bottom: 1px solid #CECECE;
+        width: 900px;
+        margin-top: 50px;
+}
+
+#profileLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -4px;
+}
+
+#newsLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 105px;
+        border-top: 2px solid black;
+        padding-top: 14px;
+}
+
+#saveLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+        padding-top: 18px;
+        color: #737373;
+}
+
+#tagLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 175px;
+        padding-top: 18px;
+        color: #737373;
+}
+
+#spaceBetweenLabel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 550px;
+        font-size: 18px;
+        margin-left: 90px;
+}
+
+#profileInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1250px;
+        margin-top: 20px;
+}
+
+#spaceBetweenImagerInProfile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+}
+
+#contact {
+        display: flex;
+        flex-direction: column;
+}
+
+#moreOption {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+        color: #737373;
+        margin-top: 80px;
+        width: 1250px;
+}
+
+#spaceBetweenContact {
+        width: 1100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#languageAndCopyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+        color: #737373;
+        margin-top: 15px;
+}
+
+#spaceBetweenLanguageAndCopyright {
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        align-items: center;
+        justify-content: space-between;
+}
