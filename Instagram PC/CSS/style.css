@@ -235,3 +235,33 @@ a {
         justify-content: space-evenly;
         align-items: center;
 }
+
+/* ============================================================Reels============================================================ */
+#Reels {
+        display: flex;
+        flex-direction: row;
+        width: 1500px;
+        height: 740px;
+        margin-top: -8px;
+}
+
+#reelsContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+#columnContent {
+        /*Phần này sẽ chuyển nội dung của các reel thành từng cột*/
+        display: flex;
+        flex-direction: row;
+        width: 1150px;
+        justify-content: center;
+        margin-left: 90px;
+}
+
+#spaceOfComponent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
