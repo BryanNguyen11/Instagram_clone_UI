@@ -6,7 +6,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        zoom: 90%;
+
 }
 
 a {
@@ -21,6 +21,7 @@ a {
         margin-top: -8px;
         width: 1500px;
         height: 740px;
+        zoom: 100%;
 }
 
 #leftSide {
@@ -170,6 +171,14 @@ a {
         margin-top: 5px
 }
 
+#buttonChecked {
+        width: 64px;
+        background-color: white;
+        border: none;
+        margin-left: -10px;
+        cursor: pointer;
+}
+
 /* ============================================================Explore============================================================ */
 #Explore {
         display: flex;
@@ -178,6 +187,7 @@ a {
         height: 740px;
         padding-right: -10px;
         margin-top: -8px;
+        zoom: 100%;
 }
 
 #contentEx {
@@ -244,6 +254,7 @@ a {
         width: 1500px;
         height: 740px;
         margin-top: -8px;
+        zoom: 100%;
 }
 
 #reelsContent {
@@ -285,6 +296,7 @@ a {
         display: flex;
         flex-direction: row;
         width: 1500px;
+        zoom: 100%;
 }
 
 #messengerContent {
@@ -347,6 +359,7 @@ a {
         height: 30px;
         border: none;
         border-radius: 10px;
+        cursor: pointer;
 }
 
 /* ============================================================Profile============================================================ */
@@ -488,4 +501,8 @@ a {
         width: 250px;
         align-items: center;
         justify-content: space-between;
+}
+
+#footerColor {
+        color: #737373;
 }
