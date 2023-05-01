@@ -7,6 +7,7 @@
 }
 body{
     font-family: "Work Sans", sans-serif;
+    background-color: rgb(230, 230, 230);
 }
 html{
     scroll-behavior: smooth;
@@ -14,6 +15,7 @@ html{
 img{
     max-width: 100%;
     width: 100%;
+    pointer-events:none ;
 }
 .container{
     max-width: 1200px;
@@ -23,15 +25,18 @@ img{
 }
 /* header */
 .header{
-    margin-top: 10px;
+    padding-top: 10px;
     margin-right: 10px;
+    
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
+    background-color: rgb(230, 230, 230);
 }
 .header_left{
     justify-self: center;
+    display: block;
 }
 .header_right{
     display: flex;
@@ -44,3 +49,58 @@ img{
     margin-right: 20px;
  }
 
+.storybar-body{
+    min-width: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    place-items: center;
+    color: rgb(51, 51, 51);
+}
+
+.story-container{
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    border: 1px solid rgb(204, 2042, 204);
+    background-color: white;
+    padding: 2rem;
+    width: 90%;
+}
+.story-container-inside{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 5rem;
+    grid-gap: 2rem;
+}
+
+.story-container-inside .story-content{
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in;
+}
+
+.story-container-inside .story-content:hover{
+    transform: scale(1.1);
+}
+.story-container-inside .story-content .img-container{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: orange;
+}
+
+.story-container-inside .story-content .img-container img{
+    display: block;
+    width: 100%;
+    height: 1000%;
+    object-fit: cover;
+    clip-path: circle(42%);
+}
+ 
