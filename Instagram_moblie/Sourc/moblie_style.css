@@ -29,15 +29,20 @@ img{
 /* header */
 .header{
     margin-top: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     /* margin-right: 10px; */
-    padding-left: 10px;
+    padding-left: 5px;
+	padding-right: 5px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     /* position: fixed; */
     background-color: white;
+}
+
+.header img{
+	
 }
 .header_left{
     justify-self: center;
@@ -46,12 +51,18 @@ img{
 .header_right{
     display: flex;
     justify-content: space-around  ;
-    width: fit-content;
+    width: auto;
+	align-items: center;
 }
  .header_right_item {
     display: flex;
     object-fit: cover;
     margin-right: 20px;
+ }
+
+ .header_right_item img{
+    min-width: 24px;
+	max-height: 24px;
  }
 
 /* story_bar */
@@ -276,3 +287,6 @@ img{
 	color: rgb(172, 170, 170);
 	font-size: 11px;
 }
+
+/* footer */
+
