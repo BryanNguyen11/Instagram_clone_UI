@@ -618,3 +618,8 @@ a {
         width: 115px;
         justify-content: space-between;
 }
+
+#eachStory {
+        display: flex;
+        flex-direction: column;
+}
