@@ -317,7 +317,6 @@ a {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
         border-bottom: 1px solid #DBDBDB;
         border-right: 1px solid #DBDBDB;
 }
@@ -552,4 +551,70 @@ a {
 
 :focus {
         outline: none;
+}
+
+#messengerRightSideTop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 490px;
+        margin-top: -6px;
+}
+
+#messengerRightSideBottom {
+        height: 600px;
+        width: 495px;
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        text-align: center;
+}
+
+#messageBox {
+        background-color: #EFEFEF;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 40px;
+        margin-left: 380px;
+        margin-top: 20px;
+}
+
+
+#chatBox {
+        margin-top: 20px;
+        width: 500px;
+        height: 40px;
+        border: 1px solid #DBDBDB;
+        border-radius: 100px;
+        background-repeat: no-repeat;
+        background-position: 10px 7px;
+        background-size: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+#labelMessengerName {
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 145px;
+        font-size: 15px;
+}
+
+#labelMessengerMess {
+        font-size: 14px;
+        color: #ABABAB;
+        margin-left: 10px;
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        width: 115px;
+        justify-content: space-between;
 }
