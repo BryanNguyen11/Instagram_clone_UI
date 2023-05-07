@@ -27,7 +27,7 @@ a {
 #leftSide {
         background-color: white;
         width: 220px;
-        height: 740px;
+        height: 17400px;
         display: flex;
         flex-direction: row;
         padding-left: 19px;
@@ -42,14 +42,14 @@ a {
         margin-left: -127px;
 }
 
-#leftSideLabel {
+#leftSideLable {
         margin-top: 118px;
-        margin-left: 14px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        width: 150px;
-        height: 396px;
+        align-items: center;
+        width: 180px;
+        height: 30px;
         font-size: 20px;
         color: black;
 }
@@ -195,6 +195,7 @@ a {
         display: flex;
         flex-direction: column;
         width: 1260px;
+        margin-left: 230px;
 }
 
 #contentImage {
@@ -252,16 +253,18 @@ a {
 #Reels {
         display: flex;
         flex-direction: row;
+        margin-top: -8px;
         width: 1500px;
         height: 740px;
-        margin-top: -8px;
         zoom: 100%;
+
 }
 
 #reelsContent {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 200px;
 }
 
 #columnContent {
@@ -304,7 +307,7 @@ a {
         display: flex;
         flex-direction: row;
         margin-top: 50px;
-        margin-left: 163px;
+        margin-left: 419px;
         width: 870px;
         height: 655px;
         border: 2px solid #DBDBDB;
@@ -385,6 +388,7 @@ a {
         flex-direction: column;
         /*Chia từng phần ra thành từng cột*/
         width: 1250px;
+        margin-left: 245px;
 }
 
 #profileInformation {
