@@ -55,9 +55,10 @@ a {
 }
 
 #center {
+        margin-left: 312px;
         background-color: #F8F8F8;
         width: 776px;
-        height: 740px;
+        height: 1240px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -95,7 +96,6 @@ a {
         display: flex;
         flex-direction: column;
         width: 550px;
-        height: 500px;
         border: 1px solid #D6D6D6;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
@@ -104,7 +104,7 @@ a {
         padding-left: 15px;
         padding-right: 15px;
         background-color: white;
-        height: 820px;
+        height: 950px;
 }
 
 .spaceOnTop {
@@ -134,7 +134,8 @@ a {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 120px;
+        width: 150px;
+        margin-left: -10px;
 }
 
 #rightSide {
@@ -505,4 +506,50 @@ a {
 
 #footerColor {
         color: #737373;
+}
+
+#tag {
+        color: #5A7E9F;
+}
+
+#note {
+        display: flex;
+        flex-direction: column;
+        margin-top: 9px;
+}
+
+#buttonLikeComment {
+        margin-top: 6px;
+        padding-top: 3px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+}
+
+#comment {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 9px;
+}
+
+#addComment {
+        border-bottom: 1px solid #B2B2B2;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding-bottom: 22px;
+        margin-top: 12px;
+        font-size: 16px;
+        width: 550px;
+        color: #B2B2B2;
+        background-image: url("../Hinh anh/Icon/emotion.png");
+        background-repeat: no-repeat;
+        background-position: 533px 0px;
+        background-size: 17px
+}
+
+:focus {
+        outline: none;
 }

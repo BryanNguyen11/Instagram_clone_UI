@@ -14,7 +14,7 @@
 
         <!-- ============================================================Home============================================================ -->
         <div id="Home">
-                <div id="leftSide">
+                <div id="leftSide" style="position: fixed;">
                         <img src="../Hinh anh/Icon/logo.png" width="125px" height="39px" style="margin-top: 40px;">
                         <div id="leftSideIcon">
                                 <div id="leftSideLable" style="margin-top: 44px;">
@@ -52,7 +52,7 @@
                                         </div>
                                 </a>
                                 <a href="#">
-                                        <div id="leftSideLable" style="margin-top: 15px; margin-left: 0px;">
+                                        <div id="leftSideLable" style="margin-top: 25px; margin-left: 0px;">
                                                 <img src="../Hinh anh/Icon/create.png" width="30px" height="28px">
 
                                         </div>
@@ -179,44 +179,210 @@
                                 </div>
                         </div>
 
-                        <div id="centerBottom">
-                                <div class="spaceOnTop">
-                                        <a href="#">
-                                                <div class="circleAvatar">
-                                                        <div id="story"> <img src="../Hinh anh/Icon/circle.png" alt=""
-                                                                        style="position: relative; width: 50px; height: 46px; margin-top: -5px; margin-left: -5px;">
-                                                                <img src="../Hinh anh/Icon/avatarUser.jpg" alt=""
-                                                                        style="position: absolute; width: 40px; height: 40px;">
+                        <div>
+                                <div id="centerBottom" style="height: 990px;">
+                                        <div class="spaceOnTop">
+                                                <a href="#">
+                                                        <div class="circleAvatar">
+                                                                <div id="story"> <img src="../Hinh anh/Icon/circle.png"
+                                                                                alt=""
+                                                                                style="position: relative; width: 50px; height: 46px; margin-top: -5px; margin-left: -5px;">
+                                                                        <img src="../Hinh anh/Icon/avatarUser.jpg"
+                                                                                alt=""
+                                                                                style="position: absolute; width: 40px; height: 40px;">
+                                                                </div>
+                                                                <div><b>demo</b></div>
                                                         </div>
-                                                        <div><b>demo</b></div>
+                                                </a>
+                                                <a href="#">&bull;&bull;&bull;</a>
+                                        </div>
+
+                                        <a href="../Hinh anh/Icon/pic.jpg" target="_self">
+                                                <div style="margin-left: -15px; margin-top: 20px;"><img
+                                                                src="../Hinh anh/Image/pic.jpg" width="580px"
+                                                                height="650px">
                                                 </div>
                                         </a>
-                                        <a href="#">&bull;&bull;&bull;</a>
-                                </div>
 
-                                <a href="../Hinh anh/Icon/pic.jpg" target="_self">
-                                        <div style="margin-left: -15px; margin-top: 20px;"><img
-                                                        src="../Hinh anh/Icon/pic.jpg" width="580px" height="400px">
-                                        </div>
-                                </a>
-
-                                <div class="spaceOnBottom">
-                                        <div class="spaceOfIconBottom">
-                                                <button id="buttonChecked" onclick="love()">
-                                                        <img id="buttonLove" src="../Hinh anh/Icon/heart.png"
+                                        <div class="spaceOnBottom">
+                                                <div class="spaceOfIconBottom">
+                                                        <img id="buttonLove1" src="../Hinh anh/Icon/heart.png"
                                                                 width="30px" height="30px"
-                                                                style="margin-top: 3px; margin-left: -8px;">
+                                                                style="margin-top: 3px; cursor: pointer;"
+                                                                onclick="love(this)">
 
-                                                </button>
-                                                <img src="../Hinh anh/Icon/comment.png" width="26px" height="26px"
-                                                        style="margin-left: -8px;">
-                                                <img src="../Hinh anh/Icon/move.png" width="45px" height="45px"
-                                                        style="margin-left: 3px;">
+                                                        <img src="../Hinh anh/Icon/comment.png" width="26px"
+                                                                height="26px" style="cursor: pointer;">
+                                                        <img src="../Hinh anh/Icon/move.png" width="45px" height="45px"
+                                                                style="margin-left: -10px; cursor: pointer;">
+                                                </div>
+                                                <div><img src="../Hinh anh/Icon/save.png" width="45px" height="45px"
+                                                                style="margin-right: -12px; cursor: pointer;"></div>
                                         </div>
-                                        <div><img src="../Hinh anh/Icon/save.png" width="45px" height="45px"
-                                                        style="margin-right: -12px;"></div>
+                                        <div id="numOfLove1" style="margin-top: 7px; font-weight: bold;">100 lượt thích
+                                        </div>
+                                        <div id="note">
+                                                <div>
+                                                        <a href="#"><b>cristiano</b></a> Indulging in history and
+                                                        gastronomy
+                                                        at
+                                                        <a href="#" id="tag">@tatel.riyadh</a> in <a href=""
+                                                                id="tag">@bujairiterrace</a>
+                                                        with a stunning view of
+                                                        <a href="#" id="tag">#at_turaif @visitdiriyah</a>
+                                                </div>
+
+                                                <div style="margin-top: 9px;"><a href="#" style="color: #838383;">View
+                                                                all
+                                                                57,204 comments</a></div>
+
+                                                <div id="comment">
+                                                        <div><a href="#"><b>richkidslondon</b></a> You are greatest of
+                                                                all time
+                                                                🔥</div>
+                                                        <img src="../Hinh anh/Icon/heart.png" width="16px" height="17px"
+                                                                id="likeComment" onclick="likeComment(this)"
+                                                                style="cursor: pointer;">
+                                                </div>
+                                                <div id="comment">
+                                                        <div><a href="#"><b>rickyregufe</b></a> ☝🏼</div>
+                                                        <img src="../Hinh anh/Icon/heart.png" width="16px" height="17px"
+                                                                id="likeComment" onclick="likeComment(this)"
+                                                                style="cursor: pointer;">
+                                                </div>
+                                                <div>
+                                                        <input type="text" id="addComment"
+                                                                placeholder="Add a comment...">
+                                                </div>
+                                        </div>
                                 </div>
-                                <div id="numOfLove" style="margin-top: 10px; font-weight: bold;">100 lượt thích
+
+                                <div id="centerBottom" style="margin-top: -5px; border-radius: 0px; border-top: none;">
+                                        <div class="spaceOnTop">
+                                                <a href="#">
+                                                        <div class="circleAvatar">
+                                                                <div id="story"> <img src="../Hinh anh/Icon/circle.png"
+                                                                                alt=""
+                                                                                style="position: relative; width: 50px; height: 46px; margin-top: -5px; margin-left: -5px;">
+                                                                        <img src="../Hinh anh/Icon/avatarUser.jpg"
+                                                                                alt=""
+                                                                                style="position: absolute; width: 40px; height: 40px;">
+                                                                </div>
+                                                                <div><b>demo</b></div>
+                                                        </div>
+                                                </a>
+                                                <a href="#">&bull;&bull;&bull;</a>
+                                        </div>
+
+                                        <a href="../Hinh anh/Icon/pic.jpg" target="_self">
+                                                <div style="margin-left: -15px; margin-top: 20px;"><img
+                                                                src="../Hinh anh/Image/pic2.jpg" width="580px"
+                                                                height="650px">
+                                                </div>
+                                        </a>
+
+                                        <div class="spaceOnBottom">
+                                                <div class="spaceOfIconBottom">
+                                                        <img id="buttonLove2" src="../Hinh anh/Icon/heart.png"
+                                                                width="30px" height="30px"
+                                                                style="margin-top: 3px; cursor: pointer;"
+                                                                onclick="love(this)">
+
+                                                        <img src="../Hinh anh/Icon/comment.png" width="26px"
+                                                                height="26px" style="cursor: pointer;">
+                                                        <img src="../Hinh anh/Icon/move.png" width="45px" height="45px"
+                                                                style="margin-left: -10px; cursor: pointer;">
+                                                </div>
+                                                <div><img src="../Hinh anh/Icon/save.png" width="45px" height="45px"
+                                                                style="margin-right: -12px; cursor: pointer;"></div>
+                                        </div>
+                                        <div id="numOfLove2" style="margin-top: 7px; font-weight: bold;">318,058 lượt
+                                                thích
+                                        </div>
+                                        <div id="note">
+                                                <div>
+                                                        <a href="#"><b>instagram</b></a> “I like making something that
+                                                        feels way in the past,
+                                                        yet light-years into the future.” —<a href="#"
+                                                                id="tag">@gracesrealm</a> (Grace
+                                                        Requejo)
+                                                        ...
+                                                </div>
+
+                                                <div style="margin-top: 3px;"><a href="#"
+                                                                style="color: #838383;">more</a></div>
+
+                                                <div style="margin-top: 13px;"><a href="#" style="color: #737373;">View
+                                                                all 6,006 comments</a></div>
+
+                                                <div>
+                                                        <input type="text" id="addComment"
+                                                                placeholder="Add a comment...">
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div id="centerBottom" style="margin-top: -5px; border-radius: 0px; border-top: none;">
+                                        <div class="spaceOnTop">
+                                                <a href="#">
+                                                        <div class="circleAvatar">
+                                                                <div id="story"> <img src="../Hinh anh/Icon/circle.png"
+                                                                                alt=""
+                                                                                style="position: relative; width: 50px; height: 46px; margin-top: -5px; margin-left: -5px;">
+                                                                        <img src="../Hinh anh/Icon/avatarUser.jpg"
+                                                                                alt=""
+                                                                                style="position: absolute; width: 40px; height: 40px;">
+                                                                </div>
+                                                                <div><b>demo</b></div>
+                                                        </div>
+                                                </a>
+                                                <a href="#">&bull;&bull;&bull;</a>
+                                        </div>
+
+                                        <a href="../Hinh anh/Icon/pic.jpg" target="_self">
+                                                <div
+                                                        style="margin-left: -15px; margin-top: 20px; background-color: black; width: 580px; height: 650px;">
+                                                        <video src="../Hinh anh/Image/video1.mp4" width="580px"
+                                                                height="650px" autoplay muted controls loop></video>
+                                                </div>
+                                        </a>
+
+                                        <div class="spaceOnBottom">
+                                                <div class="spaceOfIconBottom">
+                                                        <img id="buttonLove3" src="../Hinh anh/Icon/heart.png"
+                                                                width="30px" height="30px"
+                                                                style="margin-top: 3px; cursor: pointer;"
+                                                                onclick="love(this)">
+
+                                                        <img src="../Hinh anh/Icon/comment.png" width="26px"
+                                                                height="26px" style="cursor: pointer;">
+                                                        <img src="../Hinh anh/Icon/move.png" width="45px" height="45px"
+                                                                style="margin-left: -10px; cursor: pointer;">
+                                                </div>
+                                                <div><img src="../Hinh anh/Icon/save.png" width="45px" height="45px"
+                                                                style="margin-right: -12px; cursor: pointer;"></div>
+                                        </div>
+                                        <div id="numOfLove3" style="margin-top: 7px; font-weight: bold;">5,856,935 lượt
+                                                thích
+                                        </div>
+                                        <div id="note">
+                                                <div>
+                                                        <a href="#"><b>catnamedcalvin</b></a> Going for gold 🏆
+                                                        <br>
+                                                        ...
+                                                </div>
+
+                                                <div style="margin-top: 3px;"><a href="#"
+                                                                style="color: #838383;">more</a></div>
+
+                                                <div style="margin-top: 13px;"><a href="#" style="color: #737373;">View
+                                                                all 42,566 comments</a></div>
+
+                                                <div>
+                                                        <input type="text" id="addComment"
+                                                                placeholder="Add a comment...">
+                                                </div>
+                                        </div>
                                 </div>
                         </div>
                 </div>
