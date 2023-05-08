@@ -45,7 +45,8 @@ img{
 }
 
 .header img{
-	
+	min-width: 24px;
+	max-height: 24px;
 }
 .header_left{
     justify-self: center;
